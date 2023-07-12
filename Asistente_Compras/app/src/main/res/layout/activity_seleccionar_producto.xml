@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeleccionarProducto">
+
+    <TextView
+        android:id="@+id/tit_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/txt_entrada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tit_lista"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="@string/txt_Selec_productos"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tit_lista"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/anadirPro"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_below="@+id/Spinner"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginRight="-6dp"
+        android:onClick="aniadir_pro"
+        android:text="@string/txt_anadirPro"
+        android:textColor="@color/teal_700" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+        android:layout_below="@+id/anadirPro"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:choiceMode="multipleChoice"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Spinner"
+        app:layout_constraintVertical_bias="0.229">
+
+
+    </ListView>
+
+</RelativeLayout>

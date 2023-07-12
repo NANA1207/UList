@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner">
+        <item>Categorias</item>
+        <item>Carnes y Embutidos</item>
+        <item>Verduras y Legumbres</item>
+        <item>Frutas y Tuberculos</item>
+        <item>Cereales y Derivados</item>
+        <item>Lacteos y Derivados</item>
+        <item>Snacks</item>
+        <item>Bebidas</item>
+        <item>Otros</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="done">done</string>
+    //usuarios
+    <string name="app_name">UList</string>
+    <string name="txt_view_String">Bienvenido</string>
+    <string name="txt_view_usuario">Usuario</string>
+    <string name="txt_view_contraseña">Contraseña</string>
+    <string name="txt_view_RecuperarC">¿Has olvidado tu contraseña?</string>
+    <string name="txt_view_Ingresar">Ingresar</string>
+    <string name="txt_view_Crear">Crear</string>
+    <string name="txt_entrada"> </string>
+    //crear usuario
+    <string name="titulo_Crear_u">Crear Usuario </string>
+    <string name="description">Descripcion </string>
+    <string name="txt_Repetir_c">Repetir Contraseña </string>
+    <string name="txt_pre1">Animal favorito: </string>
+    <string name="txt_pre2">Color favorito: </string>
+    <string name="txt_pre3">Seleccione la imagen que más le guste: </string>
+    <string name="txt_preguntas">   Preguntas para recuperar contraseña: </string>
+    <string name="txt_Recordatorio">   Recordatorio de Compras </string>
+    <string name="txt_Cambiar_usu"> Cambiar Usuario </string>
+    //Seleccionar Productos
+    <string name="txt_Selec_productos"> Seleccionar Productos</string>
+    <string name="txt_anadirPro"> ¿No encuentras un producto? Añadir</string>
+    <string name="vistaprevia"> Vista Previa</string>
+    <string name="txt_nuevaLista">Nombre de su nueva lista</string>
+    <string name="txt_aceptar">Aceptar</string>
+    <string name="txt_cancelar">Cancelar</string>
+    <string name="añadir_pro">Añadir Productos</string>
+    <string name="eliminar_pro">Eliminar Productos</string>
+    <string name="txt_salir">Salir</string>
+    //vista previa
+    <string name="txt_regresar">Regresar</string>
+    <string name="txt_list_com">Ir a Lista de Compras</string>
+    // nuevo producto
+    <string name="txt_nom_pro">Nombre del Producto*</string>
+    <string name="txt_mar_pro">Marca del Producto</string>
+    <string name="txt_Precio_uni">Precio Unitario*</string>
+    <string name="txt_cat_pro">Categoría del Producto</string>
+    <string name="txt_new_pro">Añadir Producto</string>
+    <string name="txt_guar_pro">Guardar</string>
+    //lista compras
+    <string name="txt_listaCompras">Ver/Realizar Compra</string>
+    //cambiar contrasenia
+    <string name="txt_new_contraseña">Nueva Contraseña</string>
+    <string name="txt_rep_new_contraseña">Repetir Nueva Contraseña</string>
+    <string name="txt_cambiarContra">Modificar Contraseña</string>
+
+</resources>
+

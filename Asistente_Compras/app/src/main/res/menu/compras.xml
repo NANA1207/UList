@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id='@+id/item_re'
+        android:icon="@drawable/ic_baseline_keyboard_backspace_24"
+        android:title="@string/txt_salir"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id='@+id/item_compras'
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Comprar"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id='@+id/item_lista_completa'
+        android:icon="@drawable/ic_baseline_remove_red_eye_24"
+        android:title="Ver Lista Completa"
+        app:showAsAction="always"
+
+        />
+
+    <item
+        android:id='@+id/item_estado'
+        android:title="Cambiar Estado"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id='@+id/item_aniadir'
+        android:title="Modificar"
+        app:showAsAction="ifRoom"
+
+        />
+
+
+</menu>

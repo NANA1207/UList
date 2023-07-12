@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CambiarContrasena">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_marginTop="7dp"
+        android:text="@string/txt_cambiarContra"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_view_RecuperarC"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <ScrollView
+        android:layout_width="407dp"
+        android:layout_height="640dp"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/ig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_view_usuario"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/verificarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/txt_entrada"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:autofillHints="" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_new_contraseña"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/newContrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_entrada"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:autofillHints="" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_rep_new_contraseña"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/repContrasenia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:autofillHints="" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_pre1"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/resp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/txt_entrada"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_pre2"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/resp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/txt_entrada"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:autofillHints="" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_pre3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/im_cua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/description"
+                    android:onClick="figuraSeleccionada"
+                    app:srcCompat="@mipmap/cuadra" />
+
+                <ImageButton
+                    android:id="@+id/ima_tri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/description"
+                    android:onClick="figuraSeleccionada"
+                    app:srcCompat="@mipmap/tr1" />
+
+                <ImageButton
+                    android:id="@+id/ima_est"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/description"
+                    android:onClick="figuraSeleccionada"
+                    app:srcCompat="@mipmap/star1" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:onClick="cambiarContrasenia"
+                android:text="@string/txt_cambiarContra"
+                android:textColor="#FFFFFF"
+                android:textIsSelectable="false"
+                android:textStyle="bold"
+                app:backgroundTint="@color/teal_700" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cancelar"
+                android:text="@string/txt_cancelar"
+                android:textColor="#FFFCFC"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
